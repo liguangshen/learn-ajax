@@ -14,6 +14,8 @@
     </style>
 </head>
 <body>
+
+
         <h1>Hello,Maven</h1>
         <input type="text" id="username"><span class="error hide" id="helpText">该账号已被占用</span>
 
@@ -32,7 +34,8 @@
                 }
 
 
-                    document.querySelector("#username").onchange = function(){
+
+                document.querySelector("#username").onchange = function(){
                         //1.获取xmlHttpRequest对象
                         var xmlHttp = createXmlHttp();
                         //2.指定请求地址和方式
